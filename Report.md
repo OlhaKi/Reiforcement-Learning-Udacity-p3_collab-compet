@@ -2,6 +2,7 @@ The report clearly describes the learning algorithm, along with the chosen hyper
 #### Learning algorithm
 Multi-Agent Deep Determinisitc Policy Gradient(MADDPG)<br>
 Pseudocode:<br>
+![Pseudo](/Images/maddpg-algo.png)
 
 
 A plot of rewards per episode is included to illustrate that the agents get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents).
