@@ -7,6 +7,6 @@ The submission reports the number of episodes needed to solve the environment.
 The submission has concrete future ideas for improving the agent's performance.
 
 #### Concrete future ideas:
-Try dropout / different optimizer to stabilize learning.
-Try out other Actor-Critic method variants (for example, A3C).
-Try other noise process algorithms.
+Try dropout / different optimizer to stabilize learning.<br>
+Try out other Actor-Critic method variants (for example, A3C).<br>
+Try other noise process algorithms.<br>
