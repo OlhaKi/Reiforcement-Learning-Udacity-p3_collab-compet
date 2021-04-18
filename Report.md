@@ -14,6 +14,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 ### Learning algorithm
 For this project I have used a  Multi Agent Deep Deterministic Policy Gradient (MADDPG) which is described in the paper [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments.](https://arxiv.org/abs/1706.02275)<br>
 Multi-Agent Deep Determinisitc Policy Gradient(MADDPG)<br>
+
 Pseudocode:<br>
 ![Pseudo](/Images/maddpg-algo.png)
 
