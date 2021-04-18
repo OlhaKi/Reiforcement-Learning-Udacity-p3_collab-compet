@@ -18,7 +18,7 @@ Pseudocode:<br>
 ![Pseudo](/Images/maddpg-algo.png)
 
 The main concept this algorithm is summarized in this illustration:
-![Pseudo](/Images/maddpg-algo.png)
+![Main concept](/Images/Multi-Agent-DDPG-Actor.png)
 
 A plot of rewards per episode is included to illustrate that the agents get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents).
 The submission reports the number of episodes needed to solve the environment.
