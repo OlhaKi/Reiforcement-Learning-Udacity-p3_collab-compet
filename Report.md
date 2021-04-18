@@ -75,5 +75,4 @@ The submission has concrete future ideas for improving the agent's performance.
 ## Concrete future ideas:
 Create Munchausen agents(see [Munchausen Reinforcement Learning](https://arxiv.org/abs/2007.14430)).<br>
 Try dropout / different optimizer to stabilize learning.<br>
-Try out other Actor-Critic method variants (for example, A3C).<br>
 Try other noise process algorithms.<br>
