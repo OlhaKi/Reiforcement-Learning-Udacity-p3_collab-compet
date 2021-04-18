@@ -29,8 +29,39 @@ The Actor Neural Networks use the following architecture :
      * Fully Connected Layer(512, 256) with leaky_relu activation
      * Batch Normlization
      * Fully Connected Layer(256, action_size) with Tanh activation
-  * **Ouput nodes** (2 units/actions, tanh activation)
+  * **Ouput nodes** (2 units/actions, tanh activation)<br>
 The Critic Neural Networks use the following architecture :
+  * **Input nodes**
+     * Fully Connected Layer(state_size, 512) with leaky_relu activation
+     * Batch Normlization
+     * Fully Connected Layer(512, 256) with leaky_relu activation
+     * Fully Connected Layer(256, action_size)
+  * **Ouput nodes** <br>
+Both Neural Networks use the Adam optimizer. 
+#### Hyperparameters
+    # learning rate of the Actor
+    'lr_actor': 7e-4,    
+    # learning rate of the Critic
+    'lr_critic': 3e-3,                  
+    
+    # discount factor
+    'gamma': 0.99,                      
+    
+    # for soft update of target parameters
+    'tau': 0.15, 
+    # update parameters per this number
+    'update_every': 1,                  
+    
+    # update parameters per this number
+    'seed': 0,  
+    # update parameters per this number
+    'weight_decay': 0,                  
+    
+    # Ornstein-Uhlenbeck process
+    'noise_theta': 0.15,                
+    'noise_sigma': 0.01,                
+#### Result of this project:  
+Given the chosen architecture and parameters, our results are :
 
 A plot of rewards per episode is included to illustrate that the agents get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents).
 The submission reports the number of episodes needed to solve the environment.
