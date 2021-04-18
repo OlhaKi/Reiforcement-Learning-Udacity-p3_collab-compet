@@ -21,6 +21,17 @@ Pseudocode:<br>
 The main concept this algorithm is summarized in this illustration:
 ![Main concept](/Images/Multi-Agent-DDPG-Actor.png)
 <br>The Critics networks have access to the states and actions information of both agents, while the Actors networks have only access to the information corresponding to their local agent.<br>
+#### The structure of Actor and Critic Networks
+The Actor Neural Networks use the following architecture :
+  * Input nodes (8x3=24 states ) 
+     * Fully Connected Layer(state_size, 512) with leaky_relu activation
+     * Batch Normlization
+     * Fully Connected Layer(512, 256) with leaky_relu activation
+     * Batch Normlization
+     * Fully Connected Layer(256, action_size) with Tanh activation
+  * Ouput nodes (2 units/actions, tanh activation)
+The Critic Neural Networks use the following architecture :
+
 A plot of rewards per episode is included to illustrate that the agents get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents).
 The submission reports the number of episodes needed to solve the environment.
 The submission has concrete future ideas for improving the agent's performance.
