@@ -61,10 +61,13 @@ Both Neural Networks use the Adam optimizer.
     'noise_theta': 0.15,                
     'noise_sigma': 0.01,                
 #### Result of this project:  
-Given the chosen architecture and parameters, our results are :
+Given the chosen architecture and parameters, our results are :<br>
+Environment solved in 334 episodes!	Average Score: 0.50380
+
 
 A plot of rewards per episode is included to illustrate that the agents get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents).
 The submission reports the number of episodes needed to solve the environment.
+
 The submission has concrete future ideas for improving the agent's performance.
 
 ## Concrete future ideas:
