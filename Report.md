@@ -67,7 +67,7 @@ A plot of rewards per episode is included to illustrate that the agents get an a
 The submission reports the number of episodes needed to solve the environment.
 The submission has concrete future ideas for improving the agent's performance.
 
-#### Concrete future ideas:
+## Concrete future ideas:
 Create Munchausen agents(see [Munchausen Reinforcement Learning](https://arxiv.org/abs/2007.14430)).<br>
 Try dropout / different optimizer to stabilize learning.<br>
 Try out other Actor-Critic method variants (for example, A3C).<br>
