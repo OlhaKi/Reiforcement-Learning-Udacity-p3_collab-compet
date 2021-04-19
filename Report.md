@@ -63,13 +63,13 @@ Both Neural Networks use the Adam optimizer.
 #### Result of this project:  
 Given the chosen architecture and parameters, our results are :<br>
 Environment solved in 195 episodes!	Average Score: 0.51670
-![Plot](/Images/pr3_gr_19_04_21.png)
+![Plot](/Images/p3_training.png)
 
 
 A plot of rewards per episode is included to illustrate that the agents get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents).
 The submission reports the number of episodes needed to solve the environment.
 
-![Plot](/Images/pr_3_res.png)
+![Plot](/Images/p3_training.png)
 
 The submission has concrete future ideas for improving the agent's performance.
 
