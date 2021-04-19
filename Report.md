@@ -62,7 +62,7 @@ Both Neural Networks use the Adam optimizer.
     'noise_sigma': 0.01,                
 #### Result of this project:  
 Given the chosen architecture and parameters, our results are :<br>
-Environment solved in 334 episodes!	Average Score: 0.50380
+Environment solved in 195 episodes!	Average Score: 0.51670
 ![Plot](/Images/p3_training.png)
 
 
