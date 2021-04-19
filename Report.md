@@ -69,7 +69,7 @@ Environment solved in 195 episodes!	Average Score: 0.51670
 A plot of rewards per episode is included to illustrate that the agents get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents).
 The submission reports the number of episodes needed to solve the environment.
 
-![Plot](/Images/p3_training.png)
+![Plot](/Images/pr3_gr_19_04_21.png)
 
 The submission has concrete future ideas for improving the agent's performance.
 
